@@ -1,0 +1,10 @@
+concessionara_auto_usate
+
+id - INT - PRIMARY_KEY(NOTNULL, UNIQUE,INDEX) - AUTO_INCREMENT
+modello - VARCHAR(40) NOTNULL
+cilindrata - SMALLINT
+kilometri_percorsi - FLOAT(8,1)
+tipo_di_carburante - VARCHAR(20)
+numero_di_proprietari_precedenti - TINYINT DEFAULT(1)
+foto_auto - VARCHAR(100) DEFAULT(‘/img/src/default.png’)
+lista_accessori - VARCHAR(255)
